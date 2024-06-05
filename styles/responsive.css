@@ -1,0 +1,465 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1400px) {
+    .living-room__caption,
+    .dining-table__caption,
+    .bed__caption,
+    .kitchen__caption{
+        max-width: 27rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+   .products-menu{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+   }
+   .products-menu__item{
+    margin-bottom: 1rem;
+   }
+   .products-content__media::before,
+   .products-content__media::after{
+        right: 1.5rem;
+   }
+   .living-room__media::before{
+    top: 16rem;
+   }
+   .bed__media::before{
+    top: 7rem;
+   }
+   .living-room__caption,
+   .dining-table__caption,
+   .bed__caption,
+   .kitchen__caption{
+    max-width: 36rem;
+   }
+   .dining-table__media::before,
+   .kitchen__media::before{
+    top: 8rem;
+   }
+}
+
+@media screen and (max-width: 992px) {
+    .header__wrapper{
+        padding: 0 2rem;
+    }
+   .header-top{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+   }
+   .header-content__title{
+    font-size: 2.5rem;
+   }
+   .living-room__wrapper,
+   .bed__wrapper{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+   }
+   .living-room__content,
+   .bed__content{
+    padding-left: 0;
+   }
+   .dining-table__wrapper,
+   .kitchen__wrapper{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+   }
+   .dining-table__content,
+   .kitchen__content{
+    padding-right: 0;
+    padding-top: 3rem;
+   }
+   .footer__wrapper{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 2rem 0;
+   }
+   .footer-left__content{
+    text-align: center;
+   }
+   .footer-left__socials{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 1rem;
+   }
+   .footer-left__social,
+   .footer-left__social:first-child{
+    margin-right: 1rem;
+   }
+   .footer-right{
+    margin-left: 8rem;
+   }
+    .footer-left__caption,
+    .footer-right__address,
+    .footer-right__email,
+    .footer-right__number{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .header-top{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+
+    }
+    .user{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__wrapper{
+        width: 8rem;
+    }
+    .menu__title{
+        font-size: 1.1rem;
+    }
+    .menu__icon{
+        width: 3rem;
+    }
+    .header-content{
+        text-align: center;
+        padding-top: 3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .header-content__caption{
+        font-size: 1.6rem;
+    }
+    .header-content__title{
+        font-size: 2rem;
+    }
+    .user__title,
+    .share__title{
+        font-size: 0.9rem;
+    }
+    .section__title,
+    .portfolio__title{
+        font-size: 2.5rem;
+    }
+    .products-menu__link{
+        font-size: 1.2rem;
+    }
+    .products-menu__link--active,
+    .products-content__detail{
+        font-size: 1.3rem;
+    }
+    .off__wrapper{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .off__title{
+        font-size: 4rem;
+    }
+    .off__description{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .header-content__link,
+    .off__link,
+    .living-room__link,
+    .dining-table__link,
+    .bed__link,
+    .kitchen__link{
+        font-size: 1.1rem;
+    }
+    .dining-table__content,
+    .kitchen__content{
+        padding-top: 2rem;
+    }
+    .footer-left{
+        margin-left: 3rem;
+    }
+    .footer-right{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-left: 5rem;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .footer-right__content{
+        margin-bottom: 1rem;
+    }
+    .footer-right__content:last-child{
+        margin-right: 2rem;
+    }
+    .footer-left__caption,
+    .footer-right__address,
+    .footer-right__email,
+    .footer-right__number{
+        font-size: 0.9rem;
+    }
+    .footer-right__title{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    
+    .header-content{
+        padding-top: 5rem;
+    }
+    .products-menu__link{
+        font-size: 1.1rem;
+    }
+    .products-content__media::after,
+    .products-content__media::before{
+        right: 2rem;
+    }
+    .off__title{
+        font-size: 3rem;
+    }
+    .off__description,
+    .subscribe__caption{
+        font-size: 1.2rem;
+    }
+    .section__title,
+    .portfolio__title{
+        font-size: 2rem;
+    }
+    .living-room__media::before,
+    .dining-table__media::before,
+    .bed__media::before,
+    .kitchen__media::before{
+        display: none;
+    }
+    
+    .living-room__caption,
+    .dining-table__caption,
+    .bed__caption,
+    .kitchen__caption{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .nav__wrapper{
+        width: 7rem;
+    }
+    .menu__icon{
+        width: 2.5rem;
+    }
+    .menu__title{
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+    }
+   .share{
+    display: none;
+   }
+   .header-content{
+    padding-top: 6rem;
+   }
+   .header-content__caption{
+    font-size: 1.4rem;
+   }
+   .header-content__title{
+    font-size: 1.5rem;
+    max-width: 18rem;
+   }
+   .header-content__link,
+    .off__link,
+    .living-room__link,
+    .dining-table__link,
+    .bed__link,
+    .kitchen__link{
+        font-size: 1rem;
+    }
+   .section__title,
+   .portfolio__title{
+    font-size: 2.2rem;
+    }
+    .products-menu__link{
+    font-size: 1rem;
+    }
+    .products-menu__link--active,
+    .footer-right__title{
+    font-size: 1rem;
+    }
+    
+    .products-content__detail,
+    .subscribe__caption{
+        font-size: 1.1rem;
+    }
+    .living-room__caption,
+    .off__description,
+    .dining-table__caption,
+    .bed__caption,
+    .kitchen__caption{
+        font-size: 1rem;
+        text-align: justify;
+        margin-top: 0.5rem;
+    }
+    .dining-table__content,
+    .kitchen__content{
+        padding-top: 0;
+    }
+    .dining-table,
+    .bed,
+    .kitchen{
+        padding-top: 4rem;
+    }
+    .subscribe__btn{
+        padding: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+    }
+    .footer-right{
+        margin-left: 6rem;
+    }
+    .footer-left__caption,
+    .footer-right__address,
+    .footer-right__email,
+    .footer-right__number,
+    .footer-right__span{
+        font-size: 0.8rem;
+    }
+    .footer__copy-right{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .nav{
+        padding-top: 7rem;
+    }
+    .nav__wrapper{
+        width: 6rem;
+    }
+    .nav__logo{
+        display: none;
+    }
+    .header__wrapper{
+        padding: 0;
+    }
+    .menu{
+        position: absolute;
+        top: 5rem;
+        width: 19%;
+    }
+    .menu__icon{
+        width: 2rem;
+    }
+    .menu__title{
+        font-size: 0.8rem;
+    }
+    .header-content__title{
+        font-size: 1.2rem;
+    }
+    
+    .user{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .user__access{
+        margin-right: 1rem;
+        margin-bottom:0;
+    }
+    .header-content__link,
+    .off__link,
+    .living-room__link,
+    .dining-table__link,
+    .bed__link,
+    .kitchen__link{
+        font-size: 0.8rem;
+    }
+    .products-menu__link{
+        font-size: 0.9rem;
+    }
+    .products-content__detail,
+    .off__description{
+        font-size: 1rem;
+    }
+    .off__title{
+        font-size: 2rem;
+    }
+    .section__title,
+    .portfolio__title{
+        font-size: 1.5rem;
+    }
+    .subscribe__caption{
+        font-size: 1rem;
+    }
+    .footer-right__title{
+        font-size: 1.1rem;
+    }
+    .footer-right{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .menu__title{
+        font-size: 0.7rem;
+    }
+    .products-menu__link{
+        font-size: 0.8rem;
+    }
+    .products-content{
+        height: 18rem;
+    }
+    .products-content__img{
+        width: 182px;
+        height: 142px;
+    }
+    .products-content__icons{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .products-content__icon{
+        margin-bottom: 1rem;
+        margin-left: 0;
+        margin-right: 0.5rem;
+    }
+    .products-content__detail{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .products-content__media::after,
+    .products-content__media::before{
+        right: 1rem;
+    }
+}

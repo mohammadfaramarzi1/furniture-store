@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Dancing Script";
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Dosis Medium";
+    src: url("../fonts/Dosis-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("../fonts/Dosis-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Mukta";
+    src: url("../fonts/Mukta-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans_Condensed-Regular.ttf") format("ttf");
+}
