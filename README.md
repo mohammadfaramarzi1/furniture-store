@@ -1,7 +1,7 @@
 
 ## Furniture Store
 
-This is my first template for my resume. This project is single page.
+This is my first template for my resume. This project is single page and responsive.
 
 
 ## 🛠 Skills
